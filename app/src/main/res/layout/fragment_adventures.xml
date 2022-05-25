@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.adventures.AdventuresFragment"
+    tools:viewBindingIgnore="false">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_adventure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00FBFB"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:focusable="true"
+        android:onClick="addAdventure"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="#3278C8"
+        app:borderWidth="20dp"
+        app:elevation="10dp"
+        app:fabSize="normal" />
+
+    <ListView
+        android:id="@+id/adventures_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
