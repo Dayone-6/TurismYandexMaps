@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ticket_airline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Авиакомпания"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ticket_cities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Место"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ticket_airports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Аэропорт"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ticket_transfers_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пересадки туда"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ticket_date_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дата прилета"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ticket_date_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дата возвращения"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ticket_flight_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Номер полета"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ticket_transfers_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пересадки обратно"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ticket_flight_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Время полета"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ticket_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цена"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp" />
+
+</LinearLayout>
